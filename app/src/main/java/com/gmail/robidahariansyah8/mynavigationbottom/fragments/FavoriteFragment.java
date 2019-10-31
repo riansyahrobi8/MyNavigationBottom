@@ -2,12 +2,11 @@ package com.gmail.robidahariansyah8.mynavigationbottom.fragments;
 
 
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.fragment.app.Fragment;
 
 import com.gmail.robidahariansyah8.mynavigationbottom.R;
 
@@ -15,7 +14,6 @@ import com.gmail.robidahariansyah8.mynavigationbottom.R;
  * A simple {@link Fragment} subclass.
  */
 public class FavoriteFragment extends Fragment {
-
 
     public FavoriteFragment() {
         // Required empty public constructor
@@ -28,5 +26,4 @@ public class FavoriteFragment extends Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_favorite, container, false);
     }
-
 }
