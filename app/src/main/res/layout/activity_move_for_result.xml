@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MoveForResultActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Pilih hobi yang Anda suka"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rg_hobby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb_membaca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:padding="8dp"
+            android:text="@string/reading"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <RadioButton
+            android:id="@+id/rb_menulis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:padding="8dp"
+            android:text="@string/writing"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <RadioButton
+            android:id="@+id/rb_menghujat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:padding="8dp"
+            android:text="Menghujat"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <RadioButton
+            android:id="@+id/rb_nyinyir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:padding="8dp"
+            android:text="Nyinyir"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold" />
+</LinearLayout>
