@@ -4,18 +4,16 @@ package com.gmail.robidahariansyah8.mynavigationbottom.fragments;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
 import com.gmail.robidahariansyah8.mynavigationbottom.MoveActivity;
-import com.gmail.robidahariansyah8.mynavigationbottom.MoveForResultActivity;
 import com.gmail.robidahariansyah8.mynavigationbottom.MoveWithDataActivity;
 import com.gmail.robidahariansyah8.mynavigationbottom.MoveWithObjectActivity;
 import com.gmail.robidahariansyah8.mynavigationbottom.R;
